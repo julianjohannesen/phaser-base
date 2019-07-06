@@ -1,0 +1,43 @@
+{
+  "name": "phaser-base",
+  "version": "1.0.0",
+  "description": "A Phaser base configuration for any project",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --mode=development --devtool=inline-source-map --hot --open",
+    "build": "webpack --mode=production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/julianjohannesen/phaser-base.git"
+  },
+  "keywords": [
+    "phaser",
+    "template",
+    "base",
+    "boilerplate"
+  ],
+  "author": "Julian Johannesen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/julianjohannesen/phaser-base/issues"
+  },
+  "homepage": "https://github.com/julianjohannesen/phaser-base#readme",
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.5",
+    "babel-eslint": "^10.0.2",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.35.2",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {}
+}
